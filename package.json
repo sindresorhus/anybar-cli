@@ -1,6 +1,6 @@
 {
   "name": "anybar-cli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Control the AnyBar app",
   "license": "MIT",
   "repository": "sindresorhus/anybar-cli",
