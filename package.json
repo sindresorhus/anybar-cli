@@ -1,0 +1,46 @@
+{
+  "name": "anybar-cli",
+  "version": "0.0.0",
+  "description": "Control the AnyBar app",
+  "license": "MIT",
+  "repository": "sindresorhus/anybar-cli",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bin": {
+    "anybar": "cli.js"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "anybar",
+    "app",
+    "osx",
+    "mac",
+    "udp",
+    "status",
+    "color",
+    "dot",
+    "indicator"
+  ],
+  "dependencies": {
+    "anybar": "^2.0.1",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.2.2",
+    "xo": "*"
+  }
+}
