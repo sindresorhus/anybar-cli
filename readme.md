@@ -30,6 +30,14 @@ $ anybar --help
     $ anybar purple
 ```
 
+Also includes a binary to show whether a command exited successfully or with a failure.
+
+```
+$ anybar-exit ava test.js
+```
+
+If the AVA tests passes it will be green or red if they fail.
+
 
 ## Related
 

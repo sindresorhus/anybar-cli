@@ -10,7 +10,8 @@
     "url": "sindresorhus.com"
   },
   "bin": {
-    "anybar": "cli.js"
+    "anybar": "cli.js",
+    "anybar-exit": "anybar-exit.sh"
   },
   "engines": {
     "node": ">=0.10"
