@@ -1,22 +1,24 @@
 #!/usr/bin/env node
 'use strict';
-var meow = require('meow');
-var anybar = require('anybar');
+const meow = require('meow');
+const anybar = require('anybar');
 
-var cli = meow([
-	'Usage',
-	'  $ anybar <status>',
-	'',
-	'Statuses',
-	'  white red orange yellow green cyan blue purple black question exclamation quit',
-	'',
-	'Options',
-	'  --port, -p    AnyBar.app port [Default: 1738]',
-	'',
-	'Example',
-	'  $ anybar purple'
-], {
-	string: ['_'],
+const cli = meow(`
+	Usage
+	  $ anybar <status>
+
+	Statuses
+	  white red orange yellow green cyan blue purple black question exclamation quit
+
+	Options
+	  --port, -p  AnyBar.app port [Default: 1738]
+
+	Example
+	  $ anybar purple
+`, {
+	string: [
+		'_'
+	],
 	alias: {
 		p: 'port'
 	}

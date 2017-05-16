@@ -1,8 +1,6 @@
 import test from 'ava';
-
-global.Promise = Promise;
-const execa = require('execa');
+import execa from 'execa';
 
 test(async t => {
-	t.notThrows(execa('./cli.js', ['blue']));
+	await t.notThrows(execa('./cli.js', ['blue']));
 });

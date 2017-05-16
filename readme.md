@@ -2,7 +2,7 @@
 
 > Control the [AnyBar app](https://github.com/tonsky/AnyBar)
 
-[![](https://github.com/tonsky/AnyBar/blob/master/AnyBar/Resources/screenshot.png)](https://github.com/tonsky/AnyBar)
+[![](https://cloud.githubusercontent.com/assets/170270/26110935/ea2a0220-3a7d-11e7-9443-d55f5260e3fb.png)](https://github.com/tonsky/AnyBar)
 
 
 ## Install
@@ -24,7 +24,7 @@ $ anybar --help
     white red orange yellow green cyan blue purple black question exclamation quit
 
   Options
-    --port, -p    AnyBar.app port [Default: 1738]
+    --port, -p  AnyBar.app port [Default: 1738]
 
   Example
     $ anybar purple
