@@ -1,48 +1,49 @@
 {
-  "name": "anybar-cli",
-  "version": "2.0.0",
-  "description": "Control the AnyBar app",
-  "license": "MIT",
-  "repository": "sindresorhus/anybar-cli",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "bin": {
-    "anybar": "cli.js",
-    "anybar-exit": "anybar-exit.sh"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "cli.js"
-  ],
-  "keywords": [
-    "cli-app",
-    "cli",
-    "anybar",
-    "app",
-    "macos",
-    "osx",
-    "mac",
-    "udp",
-    "status",
-    "color",
-    "dot",
-    "indicator"
-  ],
-  "dependencies": {
-    "anybar": "^3.0.0",
-    "meow": "^3.7.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "execa": "^0.6.3",
-    "xo": "*"
-  }
+	"name": "anybar-cli",
+	"version": "2.0.0",
+	"description": "Control the AnyBar app",
+	"license": "MIT",
+	"repository": "sindresorhus/anybar-cli",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"bin": {
+		"anybar": "cli.js",
+		"anybar-exit": "anybar-exit.sh"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"anybar",
+		"app",
+		"macos",
+		"osx",
+		"mac",
+		"udp",
+		"status",
+		"color",
+		"dot",
+		"indicator"
+	],
+	"dependencies": {
+		"anybar": "^3.0.0",
+		"meow": "^3.7.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"execa": "^0.6.3",
+		"xo": "*"
+	}
 }

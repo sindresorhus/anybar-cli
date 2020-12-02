@@ -1,16 +1,14 @@
-# anybar-cli [![Build Status](https://travis-ci.org/sindresorhus/anybar-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/anybar-cli)
+# anybar-cli
 
 > Control the [AnyBar app](https://github.com/tonsky/AnyBar)
 
 [![](https://cloud.githubusercontent.com/assets/170270/26110935/ea2a0220-3a7d-11e7-9443-d55f5260e3fb.png)](https://github.com/tonsky/AnyBar)
-
 
 ## Install
 
 ```
 $ npm install --global anybar-cli
 ```
-
 
 ## Usage
 
@@ -38,12 +36,6 @@ $ anybar-exit ava test.js
 
 If the AVA tests passes it will be green or red if they fail.
 
-
 ## Related
 
 - [anybar](https://github.com/sindresorhus/anybar) - API for this module
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
