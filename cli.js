@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const anybar = require('anybar');
+import meow from 'meow';
+import anybar from 'anybar';
 
 const cli = meow(`
 	Usage
@@ -11,20 +10,20 @@ const cli = meow(`
 	  white red orange yellow green cyan blue purple black question exclamation quit
 
 	Options
-	  --port, -p  AnyBar.app port [Default: 1738]
+	  --port -p  AnyBar app port [Default: 1738]
 
 	Example
 	  $ anybar purple
 `, {
-	string: [
-		'_'
-	],
-	alias: {
-		p: 'port'
+	flags: {
+		port: {
+			type: 'number',
+			alias: 'p'
+		}
 	}
 });
 
-if (!cli.input[0]) {
+if (cli.input.length === 0) {
 	console.error('Specify a status');
 	process.exit(1);
 }
